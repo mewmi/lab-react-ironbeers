@@ -10,7 +10,7 @@ const HomePage = () => {
       <h1>Home Page</h1>
 
       <h2>
-        <Link to="/AllBeers">
+        <Link to="/beers">
           {" "}
           <img src={Beers} alt="Beers" />
           <br></br>All Beers
@@ -18,7 +18,7 @@ const HomePage = () => {
       </h2>
 
       <h2>
-        <Link to="/NewBeer">
+        <Link to="/new-beer">
           <img src={NewBeers} alt="Beers" />
           <br></br>Create
         </Link>

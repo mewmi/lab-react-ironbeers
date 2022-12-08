@@ -10,10 +10,10 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/AllBeers" element={<AllBeers />} />
+        <Route path="/beers" element={<AllBeers />} />
         <Route path="/random-beer" element={<RandomBeer />} />
-        <Route path="/NewBeer" element={<NewBeer />} />
-        <Route path="/beers/:beerId" element={<SingleBeer />} />
+        <Route path="/new-beer" element={<NewBeer />} />
+        <Route path="/beers/:id" element={<SingleBeer />} />
       </Routes>
     </div>
   );
